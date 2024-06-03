@@ -8,7 +8,7 @@ body {
     background-image: url(./assets/images/background-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: top 100%;
-    background-size:calc(100%);
+    background-size: calc(100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,14 @@ main {
 .top {
     display: flex;
     gap: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 .icon-star {
@@ -68,7 +76,9 @@ p {
     border-top: 0.1px solid wheat;
 }
 
-.icon-minus, .icon-plu, .hide {
+.icon-minus,
+.icon-plu,
+.hide {
     display: none;
 }
 
@@ -85,7 +95,7 @@ button:hover {
         max-width: 350px;
         padding: 28px;
     }
-    
+
     button {
         gap: 41px;
         text-align: left;
